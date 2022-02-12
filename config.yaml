@@ -1,0 +1,17 @@
+local:
+  port: 29000
+
+remote:
+  host: "192.168.200.100"
+  port: 29000
+
+log:
+  level: "debug"
+  filename: "./log/log.txt"
+  maxsize: 10
+  maxage: 30
+  maxbackups: 7
+
+snowflake:
+  starttime: "2020-09-30"
+  machineid: 1
